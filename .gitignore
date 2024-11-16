@@ -1,0 +1,65 @@
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+[Bb]in/
+[Oo]bj/
+# build folder is nowadays used for build scripts and should not be ignored
+#build/
+
+*.dll
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+
+# Click-Once directory
+publish/
+
+# Others
+*.Cache
+
+
+# vim
+*.txt~
+*.swp
+*.swo
+
+# Temp files when opening LibreOffice on ubuntu
+.~lock.*
+
+# =========================
+# Windows detritus
+# =========================
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Mac desktop service store files
+.DS_Store
+
+
+# Visual Studio temp something
+.vs/
+
+# Rider
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+
+#####
+# End of core ignore list, below put you custom 'per project' settings (patterns or path)
+#####
