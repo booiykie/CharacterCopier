@@ -95,3 +95,23 @@ dotnet --list-sdks
 ```
 
 to ensure you have a compatible version.
+
+## Program Run
+
+
+### Passing Input as Arguments
+
+You can pass the string to be processed as arguments to the program:
+
+```bash
+dotnet run -- "Hello, world! This is a test.\nEnd of input"
+```
+
+The program will process the input and output:
+
+```bash
+Hello, world! This is a test.
+Copy completed!
+```
+
+If no arguments are provided, the program will prompt you to enter a string interactively.
