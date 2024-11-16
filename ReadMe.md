@@ -4,7 +4,7 @@ This project implements a Copier class that reads characters from a source (ISou
 
 ## Prerequisites
 
-1. *.NET SDK*: Ensure you have the .NET SDK installed. You can download it from Microsoft's .NET website.
+1. *.NET SDK*: Ensure you have the .NET SDK installed. You can download it from Microsoft's .NET website. The project was developed on `version 7`.
 
 - Verify the installation:
 
