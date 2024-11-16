@@ -25,7 +25,7 @@ dotnet --version
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone git@github.com:booiykie/CharacterCopier.git
 cd Copier
 ```
 
